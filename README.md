@@ -1,25 +1,57 @@
-📤 Pasta outputs/ – Resultados dos Testes com IA
+# 🤖 Projeto: Explorando a IA no Azure com Reconhecimento de Fala e IA Generativa
 
-Durante os testes realizados com os serviços de Reconhecimento de Fala e IA Generativa da Microsoft e OpenAI, obtivemos os seguintes resultados:
+Este projeto foi desenvolvido com base nos laboratórios da Microsoft Learn e explora recursos de IA como:
+- Reconhecimento de fala em tempo real
+- Geração de texto com modelos de IA generativa
 
-1. Transcrição do áudio "audio-comando-voz.wav":
---------------------------------------------------
-Texto reconhecido:
-"Qual a previsão do tempo para amanhã em São Paulo?"
+---
 
-Observação:
-O serviço Azure Speech-to-Text conseguiu capturar com precisão a pergunta realizada em voz, mesmo com ruído ambiente moderado.
+## 📁 Estrutura
 
-2. Transcrição do áudio "audio-despedida.wav":
------------------------------------------------
-Texto reconhecido:
-"Muito obrigado e até a próxima."
+- `inputs/` → imagens, áudios ou prompts utilizados nos testes
+- `outputs/` → resultados dos testes, como textos gerados e transcrições
 
-Observação:
-O reconhecimento de uma frase informal e natural foi bem interpretado pelo modelo, demonstrando boa compreensão em contextos de finalização de conversa.
+---
 
-Esses arquivos de texto foram salvos automaticamente na pasta outputs/ como:
-- audio-comando-voz.txt
-- audio-despedida.txt
+## 🛠️ Tecnologias Utilizadas
 
-Esses resultados validam a eficácia dos serviços de IA da Azure e mostram como podem ser aplicados em assistentes virtuais, bots de atendimento e sistemas inteligentes.
+- Azure Cognitive Services
+- Azure OpenAI
+- Python (para scripts)
+- VS Code
+- Portal Azure
+
+---
+
+## 🧪 Experimentos
+
+### 🎤 Reconhecimento de Fala
+- Entrada: Áudio `.wav` com comandos de voz
+- Saída: Texto transcrito automaticamente
+- Ferramenta: Speech Studio
+
+📷 *[print do speech studio]*
+
+---
+
+### ✨ Geração de Texto com IA
+- Entrada: Prompt "Escreva um resumo sobre transformação digital"
+- Saída: Texto coerente gerado pela IA com base no prompt
+- Ferramenta: Azure OpenAI Playground
+
+📷 *[print do playground]*
+
+---
+
+## 💡 Insights e Aprendizados
+
+- A IA generativa pode acelerar a criação de conteúdos diversos (textos, e-mails, resumos).
+- O reconhecimento de fala pode ser integrado facilmente com aplicações de acessibilidade.
+- A integração de serviços no Azure facilita o teste e prototipagem com poucos cliques.
+
+---
+
+## ✅ Como Rodar
+
+Você pode testar os exemplos criando sua própria conta gratuita no [portal.azure.com](https://portal.azure.com/) e seguindo os passos dos links oficiais dos labs.
+
