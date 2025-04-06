@@ -1,0 +1,15 @@
+Arquivos de Entrada
+Durante a prática dos conceitos de IA Generativa e Reconhecimento de Fala com as ferramentas da Microsoft e OpenAI, utilizei diversos arquivos de entrada que foram fundamentais para realizar os testes e analisar os resultados. Esses arquivos estão organizados na pasta inputs/ do repositório.
+
+Reconhecimento de Fala
+Utilizei o arquivo audio-comando-voz.wav, contendo a frase:
+
+"Qual a previsão do tempo para amanhã em São Paulo?"
+
+Esse áudio foi processado com o Azure Speech-to-Text, onde o sistema conseguiu reconhecer corretamente o conteúdo falado e transformá-lo em texto. O resultado foi salvo na pasta output/ como um arquivo .txt.
+
+Além disso, fiz um segundo teste com audio-despedida.wav, onde o áudio dizia:
+
+"Muito obrigado e até a próxima."
+
+Esse experimento mostrou como o serviço também lida bem com frases mais naturais e de encerramento de conversa.
